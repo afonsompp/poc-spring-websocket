@@ -13,12 +13,11 @@ public class ResponseMessage {
 		this.message = message;
 	}
 	
-	public String getMessage() {
-		return message;
-	}
-	
 	public String getFrom() {
 		return from;
+	}
+	public String getMessage() {
+		return message;
 	}
 	
 	public static ResponseMessage getSampleMessage() {
